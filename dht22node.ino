@@ -22,7 +22,7 @@
 	(Default interval / hardcoded interval)
 
 	Min and max values are used for dynamic reconfiguration
-	during downlink
+	during downlink.
 
 	TX_INTERVAL is the default transmission interval.
 
