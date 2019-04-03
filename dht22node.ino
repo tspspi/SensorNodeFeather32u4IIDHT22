@@ -10,8 +10,8 @@
 	with BSFrance LoRA32u4 II
 */
 
-#include <DHT.h>;
-#include <stdint.h>;
+#include <DHT.h>
+#include <stdint.h>
 #include <lmic.h>
 #include <hal/hal.h>
 #include <SPI.h>
