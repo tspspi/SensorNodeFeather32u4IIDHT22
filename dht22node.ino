@@ -278,6 +278,8 @@ static void do_send(osjob_t* j) {
 		/*
 			Read data from DHT22
 		*/
+        dhtSensor.read(true);
+        delay(2000);
 		humidity = dhtSensor.readHumidity();
 		temperature = dhtSensor.readTemperature();
 		voltageRaw = analogRead(ANALOGPIN);
